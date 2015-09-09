@@ -1,0 +1,201 @@
+<core:View 
+	xmlns:core="sap.ui.core" 
+	xmlns:mvc="sap.ui.core.mvc" 
+	xmlns="sap.m" 
+	xmlns:f="sap.ui.layout.form" 
+	xmlns:commons="sap.ui.commons" 
+	xmlns:l="sap.ui.layout" 
+	xmlns:html="http://www.w3.org/1999/xhtml" 
+	xmlns:v="sap.ui.comp.variants"
+	controllerName="insurance.links.views.LinksScreen">	
+
+	<Page title="{i18n>LinkTitle}" showNavButton="true" navButtonPress="onNavBack">
+		<content>
+			<l:Grid class="sapUiResponsiveMargin" defaultSpan="L3 M6 S12">
+				<l:content>	
+					<FlexBox height="300px">
+							<VBox alignItems="Center"
+								   justifyContent="Center">
+							 	<items>
+							 		<HBox>
+							 			<core:Icon
+											src="sap-icon://travel-expense"
+											class="sapUiResponsiveMargin"
+											color="#0a528c"
+											press="openLink1"
+											size="3rem">
+										</core:Icon>
+							 		</HBox>
+									<HBox>
+										<Link text="{i18n>LinkName1}"
+											  target="_blank"
+											  href="http://www.baidu.com/"
+											  class="sapUiResponsiveMargin"
+											  emphasized="true">
+										</Link>
+									</HBox>
+								</items>
+							 </VBox>
+					</FlexBox>	
+					
+					<FlexBox height="300px">
+							<VBox alignItems="Center"
+								   justifyContent="Center">
+							 	<items>
+							 		<HBox>
+							 			<core:Icon
+											src="sap-icon://insurance-life"
+											class="sapUiResponsiveMargin"
+											color="#0a528c"
+											press="openLink1"
+											size="3rem">
+										</core:Icon>
+							 		</HBox>
+									<HBox>
+										<Link text="{i18n>LinkName2}"
+											  target="_blank"
+											  href="http://www.baidu.com/"
+											  class="sapUiResponsiveMargin"
+											  emphasized="true">
+										</Link>
+									</HBox>
+								</items>
+							 </VBox>
+					</FlexBox>
+					
+					<FlexBox height="300px">
+							<VBox alignItems="Center"
+								   justifyContent="Center">
+							 	<items>
+							 		<HBox>
+							 			<core:Icon
+											src="sap-icon://insurance-house"
+											class="sapUiResponsiveMargin"
+											color="#0a528c"
+											press="openLink1"
+											size="3rem">
+										</core:Icon>
+							 		</HBox>
+									<HBox>
+										<Link text="{i18n>LinkName3}"
+											  target="_blank"
+											  href="http://www.baidu.com/"
+											  class="sapUiResponsiveMargin"
+											  emphasized="true">
+										</Link>
+									</HBox>
+								</items>
+							 </VBox>
+					</FlexBox>							
+				</l:content>
+			</l:Grid>
+			
+			<l:Grid class="sapUiResponsiveMargin" defaultSpan="L3 M6 S12">
+				<l:content>	
+					<FlexBox height="200px">
+							<VBox alignItems="Center"
+								   justifyContent="Center">
+							 	<items>
+							 		<HBox>
+							 			<core:Icon
+											src="sap-icon://home"
+											class="sapUiResponsiveMargin"
+											color="#0a528c"
+											press="openLink1"
+											size="3rem">
+										</core:Icon>
+							 		</HBox>
+									<HBox>
+										<Link text="{i18n>LinkName4}"
+											  target="_blank"
+											  href="http://www.nanshanlife.com.tw/"
+											  class="sapUiResponsiveMargin"
+											  emphasized="true">
+										</Link>
+									</HBox>
+								</items>
+							 </VBox>
+					</FlexBox>
+					
+					<FlexBox height="200px">
+							<VBox alignItems="Center"
+								   justifyContent="Center">
+							 	<items>
+							 		<HBox>
+							 			<core:Icon
+											src="sap-icon://hello-world"
+											class="sapUiResponsiveMargin"
+											color="#0a528c"
+											press="openLink1"
+											size="3rem">
+										</core:Icon>
+							 		</HBox>
+									<HBox>
+										<Link text="{i18n>LinkName5}"
+											  target="_blank"
+											  href="http://www.nanshancharity.org.tw/"
+											  class="sapUiResponsiveMargin"
+											  emphasized="true">
+										</Link>
+									</HBox>
+								</items>
+							 </VBox>
+					</FlexBox>
+					
+					<FlexBox height="200px">
+							<VBox alignItems="Center"
+								   justifyContent="Center">
+							 	<items>
+							 		<HBox>
+							 			<core:Icon
+											src="sap-icon://cart-2"
+											class="sapUiResponsiveMargin"
+											color="#0a528c"
+											press="openLink1"
+											size="3rem">
+										</core:Icon>
+							 		</HBox>
+									<HBox>
+										<Link text="{i18n>LinkName6}"
+											  target="_blank"
+											  href="https://www.nanshanlife.com.tw/AES3.0/index.tiles#XTOP"
+											  class="sapUiResponsiveMargin"
+											  emphasized="true">
+										</Link>
+									</HBox>
+								</items>
+							 </VBox>
+					</FlexBox>
+					
+					<FlexBox height="200px">
+							<VBox alignItems="Center"
+								   justifyContent="Center">
+							 	<items>
+							 		<HBox>
+							 			<core:Icon
+											src="sap-icon://idea-wall"
+											class="sapUiResponsiveMargin"
+											color="#0a528c"
+											press="openLink1"
+											size="3rem">
+										</core:Icon>
+							 		</HBox>
+									<HBox>
+										<Link text="{i18n>LinkName7}"
+											  target="_blank"
+											  href="https://www.nanshanlife.com.tw/careerCenter/logout.do"
+											  class="sapUiResponsiveMargin"
+											  emphasized="true">
+										</Link>
+									</HBox>
+								</items>
+							 </VBox>
+					</FlexBox>
+									
+				</l:content>				
+			</l:Grid>
+			
+			
+		</content>
+	</Page>
+ </core:View>
