@@ -47,7 +47,7 @@
 											src="sap-icon://insurance-life"
 											class="sapUiResponsiveMargin"
 											color="#0a528c"
-											press="openLink1"
+											press="openLink2"
 											size="3rem">
 										</core:Icon>
 							 		</HBox>
@@ -72,7 +72,7 @@
 											src="sap-icon://insurance-house"
 											class="sapUiResponsiveMargin"
 											color="#0a528c"
-											press="openLink1"
+											press="openLink3"
 											size="3rem">
 										</core:Icon>
 							 		</HBox>
@@ -101,7 +101,7 @@
 											src="sap-icon://home"
 											class="sapUiResponsiveMargin"
 											color="#0a528c"
-											press="openLink1"
+											press="openLink4"
 											size="3rem">
 										</core:Icon>
 							 		</HBox>
@@ -123,20 +123,23 @@
 							 	<items>
 							 		<HBox>
 							 			<core:Icon
-											src="sap-icon://hello-world"
+											src="sap-icon://decision"
 											class="sapUiResponsiveMargin"
 											color="#0a528c"
-											press="openLink1"
+											press="openLink5"
 											size="3rem">
 										</core:Icon>
 							 		</HBox>
 									<HBox>
 										<Link text="{i18n>LinkName5}"
-											  target="_blank"
-											  href="http://www.nanshancharity.org.tw/"
-											  class="sapUiResponsiveMargin"
-											  emphasized="true">
-										</Link>
+												  target="_blank"
+												  href="http://www.nanshancharity.org.tw/"
+												  class="sapUiResponsiveMargin"
+												  emphasized="true"
+												  width="130px"
+												  wrapping="true"												  
+												  >
+											</Link>
 									</HBox>
 								</items>
 							 </VBox>
@@ -151,7 +154,7 @@
 											src="sap-icon://cart-2"
 											class="sapUiResponsiveMargin"
 											color="#0a528c"
-											press="openLink1"
+											press="openLink6"
 											size="3rem">
 										</core:Icon>
 							 		</HBox>
@@ -176,7 +179,7 @@
 											src="sap-icon://idea-wall"
 											class="sapUiResponsiveMargin"
 											color="#0a528c"
-											press="openLink1"
+											press="openLink7"
 											size="3rem">
 										</core:Icon>
 							 		</HBox>

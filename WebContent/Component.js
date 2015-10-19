@@ -79,6 +79,8 @@ sap.ui.core.UIComponent.extend("insurance.links.Component", {
     oView.setModel(i18nModel, "i18n");
     this.setModel(i18nModel, "i18n");
     console.log("i18nModel success");
+    
+    //sap.ui.commons.layout.BackgroundDesign.Fill1();
     return oView;
 
   }
